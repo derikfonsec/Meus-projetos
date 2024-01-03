@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,6 +16,7 @@
     <script src="script.js"></script>
     <title>Portfólio DRK</title>
 </head>
+
 <body>
     <header>
         <div class="interface">
@@ -31,12 +33,173 @@
                     <li><a href="#"></a>Projetos</li>
                 </ul>
             </nav>
-            <div>
+            <div class="contato">
                 <a href="">
                     <button>Contato</button>
                 </a>
+            </div> <!--Contato-->
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
             </div>
-        </div>
-    </header>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-circle"></i>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#">Especialidades</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Projetos</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </nav>
+
+            </div> <!--menu-mobile-->
+
+            <div class="overlay-menu" id="overlay-menu"></div>
+
+        </div> <!--Interface-->
+    </header> <!--header-->
+
+    <main>
+
+        <section class="topo">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo">
+                        <h1>TRANSFORMANDO IDEIAS EM REALIDADE DIGITAL<span>.</span></h1>
+                        <p>Cratividade e inovação andam lado a lado. Com uma combinação única de design impactante,
+                            funcionalidade intuitiva, e otimização para resultados, estou pronto para criar a presença
+                            online de seus sonhos.</p>
+
+                        <div class="contato">
+                            <a href="#">
+                                <button>Entre em contato</button>
+                            </a>
+                        </div>
+                    </div> <!--txt-topo-->
+                    <div class="img-topo">
+                        <img src="./images/port-img.jpg" alt="EU">
+                    </div> <!--txt-img-->
+                </div>
+            </div>
+
+        </section><!--TOPO DO SITE-->
+
+        <section class="especialidades">
+            <div class="interface">
+                <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
+                <div class="flex">
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-code-slash"></i>
+                        <h3>Website</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum assumenda quae minus placeat
+                            culpa
+                            nihil laborum exercitationem</p>
+                    </div> <!--ESPECIALIDADES BOX-->
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-cart"></i>
+                        <h3>Loja online</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum assumenda quae minus placeat
+                            culpa
+                            nihil laborum exercitationem</p>
+                    </div> <!--ESPECIALIDADES BOX-->
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-wordpress"></i>
+                        <h3>Blog</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum assumenda quae minus placeat
+                            culpa
+                            nihil laborum exercitationem</p>
+                    </div> <!--ESPECIALIDADES BOX-->
+                </div>
+
+            </div>
+        </section><!--especialidades-->
+
+        <section class="sobre">
+            <div class="interface">
+                <div class="flex">
+
+                    <div class="img-sobre">
+                        <img src="./images/port-img.jpg" alt="minha-foto">
+                    </div><!--img-sobe-->
+
+                    <div class="txt-sobre">
+                        <h2>MUITO PRAZER, <span>SOU DERIK FONSECA.</span></h2> <!--MUITO PRAZER-->
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ipsa quos asperiores, provident suscipit ex? 
+                           Consectetur saepe nesciunt et, esse fuga asperiores facere ducimus soluta nemo, laborum maxime! Repellat, explicabo.</p><!--PARÁGRAFO 1-->
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ipsa quos asperiores, provident suscipit ex? 
+                           Consectetur saepe nesciunt et, esse fuga asperiores facere ducimus soluta nemo, laborum maxime! Repellat, explicabo.</p><!--PARÁGRAFO 2-->
+                        <div class="btn-social">
+                            <a href="https://www.instagram.com/derikfonsec/" target="_blank"><button><i class="bi bi-instagram"></i></button></a>
+                            <a href="https://www.linkedin.com/in/derik-fonseca-b1323b27b/" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+                            <a href="https://wa.me/558281669965" target="_blank"><button><i class="bi bi-whatsapp"></i></button></a>
+                        </div><!--btn-social-->
+                    </div> <!--txt-sobre-->
+                </div>
+            </div> <!--interface-->
+        </section><!--sobre-->
+
+        <section class="portfolio">
+            <div class="interface">
+                <h2 class="titulo">MEU <span>PORTFÓLIO.</span></h2>
+                <div class="flex">
+                    <div class="img-port" style="background-image: url(./images/port-img.jpg);">
+                        <div class="overlay">Projeto 1</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(./images/port-img.jpg);">
+                        <div class="overlay">Projeto 2</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(./images/port-img.jpg);">
+                        <div class="overlay">Projeto 3</div>
+                    </div>
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--portfolio-->
+
+        <section class="formulario">
+            <div class="interface">
+                <h2 class="titulo">FALA <span>COMIGO.</span></h2>
+                
+                <form action="#">
+                    <input type="text" name="" id="" placeholder="Seu nome completo:" required>
+                    <input type="text" name="" id="" placeholder="Seu e-mail:" required>
+                    <input type="text" name="" id="" placeholder="Seu celular:">
+                    <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
+                    <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+                </form>
+            </div><!-- interface -->
+        </section><!-- formulario -->
+
+        <footer>
+            <div class="interface">
+                <div class="line-footer">
+                    <div class="flex">
+                        <div class="logo-footer">
+                            <a href="#"><img src="./images/logodrk.png" alt="logo-rodape"></a>
+                        </div><!--logo-footer-->
+                        <div class="btn-social">
+                            <a href="https://www.instagram.com/derikfonsec/" target="_blank"><button><i class="bi bi-instagram"></i></button></a>
+                            <a href="https://www.linkedin.com/in/derik-fonseca-b1323b27b/" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+                            <a href="https://wa.me/558281669965" target="_blank"><button><i class="bi bi-whatsapp"></i></button></a>
+                        </div><!--btn-social-->
+                    </div><!--flex-->
+                </div><!--line-footer-->
+    
+                <div class="line-footer borda">
+                    <p><i class="bi bi-envelope-at"></i> <a href="mailto:derikfonseca406@gmail.com">derikfonseca406@gmail.com</a></p>
+                </div><!--line-footer-->
+            </div><!--interface-->
+        </footer>
+
+    </main>
 </body>
+
 </html>
